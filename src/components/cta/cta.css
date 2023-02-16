@@ -1,0 +1,36 @@
+.scrolling-word {
+    /* Ajoutez les propriétés de transition pour animer l'effet de défilement */
+    transition: transform 0.001s ease-in-out;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .bouton__Scroll_Word{
+    border: solid 1px;
+    color: black;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-family: var(--font-family);
+    font-size: medium;
+  }
+
+  .placeholder_scroll{
+    background-color: rgb(202, 202, 202);
+    width: 200px;
+
+  }
+
+  .bouton__Scroll_Word:hover {
+    color: rgb(189, 48, 48); 
+   }
+
+  .containe_scroll_word{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+  }

@@ -1,0 +1,1 @@
+export { default as PortfolioPages } from '../pages/PortfolioPages';
