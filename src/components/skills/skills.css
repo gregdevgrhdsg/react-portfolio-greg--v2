@@ -65,14 +65,14 @@
         grid-template-columns: repeat(3, 1fr);     
         justify-content: center;
         align-items: center;
-        column-gap: 3rem;
-        row-gap: 3rem;
+        column-gap: 2rem;
+        row-gap: 2rem;
     }
     .skills__card {
         width: 100%;
     }
     .skills__img {
-        height: 40px;
+        height: 30px;
         width: auto;
         margin: auto;   
         display: flex;
