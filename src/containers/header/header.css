@@ -16,19 +16,9 @@
 .gpt3__header-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 62px;
+    font-size: 40px;
     line-height: 75px;
     letter-spacing: -0.04em;
-}
-
-.gpt3__header-content p {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: var(--color-text);
-
-    margin-top: 1.5rem;
 }
 
 .gpt3__header-content__input {
@@ -39,42 +29,6 @@
     flex-direction: row;
 }
 
-.gpt3__header-content__input input {
-    flex: 2;
-    width: 100%;
-    min-height: 50px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    background: var(--color-footer);
-    border: 2px solid var(--color-footer);
-    padding: 0 1rem;
-    outline: none;
-    color: #fff;
-
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
-
-.gpt3__header-content__input button {
-    flex: 0.6;
-    width: 100%;
-    min-height: 50px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    background: #FF4820;
-    border: 2px solid #FF4820;
-    padding: 0 1rem;
-    color: #fff;
-    cursor: pointer;
-    outline: none;
-
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
 
 .gpt3__header-content__people {
     width: 100%;
@@ -82,7 +36,6 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
-
     margin-top: 2rem;
 }
 
@@ -188,7 +141,7 @@
     color: rgb(0, 0, 0);
     padding: 1rem;
     border: solid 1px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .download-button:hover {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './cta.css';
 
 function RandomWordButton() {
@@ -8,7 +8,11 @@ function RandomWordButton() {
   'Creative','Imaginative'];
 
   // Définir un état pour stocker le mot sélectionné au hasard
-  const [selectedWord, setSelectedWord] = useState('');
+  const [selectedWord, setSelectedWord] = useState(null);
+
+  useEffect(() => {
+    selectRandomWord();
+  }, []);
 
   // Fonction pour sélectionner un mot au hasard à partir de la liste
   const selectRandomWord = () => {
@@ -27,18 +31,17 @@ function RandomWordButton() {
     setTimeout(selectRandomWord, words.length * 100);
   }
 
-
   return (
     <div className='containe_scroll_word'>
-        <div>
-          <h2 className="section__title">Assets</h2>
-          </div>
-      <button className="bouton__Scroll_Word" onClick={scrollWords}> See my assets</button>
-      <div className='placeholder_scrol'>
-      <p className="scrolling-word"> {selectedWord}</p>
+      <div className='form_button_container'>
+        <div className='placeholder_scroll_fond'>
+          <div className='backgroundform_cta'>{selectedWord || 'Hello'}</div>
+          <button className="bouton__Scroll_Word color-1" onClick={scrollWords}> See my assets</button>
+        </div>
       </div>
     </div>
   );
 }
 
 export default RandomWordButton;
+
