@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    border-top:#000000 solid 1Px;
     background: var(--color-footer);
 }
 
@@ -27,7 +27,7 @@
     align-items: center;
 
     padding: 1rem;
-    border: 1px solid #fff;
+    border: 1px solid #000000;
     text-align: center;
 
     margin-bottom: 10rem;
@@ -74,7 +74,7 @@
     font-family: var(--font-family);
     font-size: 12px;
     line-height: 15px;
-    color: #fff;
+    color: #000000;
 }
 
 .gpt3__footer-links_div {
@@ -87,7 +87,7 @@
     font-size: 14px;
     line-height: 17px;
     font-family: var(--font-family);
-    color: #fff;
+    color: #000000;
 
     margin-bottom: 0.9rem;
 }
@@ -96,7 +96,7 @@
     font-size: 12px;
     line-height: 15px;
     font-family: var(--font-family);
-    color: #fff;
+    color: #000000;
 
     margin: 0.5rem 0;
     cursor: pointer;
@@ -112,7 +112,7 @@
     font-size: 12px;
     font-family: var(--font-family);
     line-height: 15px;
-    color: #fff;
+    color: #000000;
 }
 
 @media screen and (max-width: 850px) {

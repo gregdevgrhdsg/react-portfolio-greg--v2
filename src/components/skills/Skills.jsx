@@ -1,11 +1,18 @@
 import React from 'react';
-import HTML from '../../assets/html.png';
+import PS from '../../assets/ps.png';
+import ID from '../../assets/id.png';
+import AI from '../../assets/ai.png';
+import AE from '../../assets/ae.png';
+import PR from '../../assets/pr.png';
+import XD from '../../assets/xd.png';
+import BL from '../../assets/blender.png';
+import WP from '../../assets/wordpress.png';
 import CSS from '../../assets/css.png';
-import JavaScript from '../../assets/javascript.png';
+import HTML from '../../assets/html.png';
 import ReactImg from '../../assets/react.png';
-import FireBase from '../../assets/firebase.png';
+import JS from '../../assets/javascript.png';
 import GitHub from '../../assets/github.png';
-import Tailwind from '../../assets/tailwind.png';
+import PY from '../../assets/python.png';
 import Mongo from '../../assets/mongo.png';
 import './skills.css';
 
@@ -20,36 +27,52 @@ const Skills = () => {
 
           <div className='skills__grid'>
               <div className='skills__card'>
+                  <img className='skills__img' src={PS} alt="HTML icon" />
+                  <p className='my-4'>Photoshop</p>
+              </div>
+              <div className='skills__card'>
+                  <img className='skills__img' src={ID} alt="HTML icon" />
+                  <p className='my-4'>Indesign</p>
+              </div>
+              <div className='skills__card'>
+                  <img className='skills__img' src={AI} alt="HTML icon" />
+                  <p className='my-4'>Illustrator</p>
+              </div>
+              <div className='skills__card'>
+                  <img className='skills__img' src={AE} alt="HTML icon" />
+                  <p className='my-4'>After Effect</p>
+              </div>
+              <div className='skills__card'>
+                  <img className='skills__img' src={PR} alt="HTML icon" />
+                  <p className='my-4'>Première pro</p>
+              </div>
+              <div className='skills__card'>
+                  <img className='skills__img' src={XD} alt="HTML icon" />
+                  <p className='my-4'>Adobe xd</p>
+              </div>
+              <div className='skills__card'>
+                  <img className='skills__img' src={BL} alt="HTML icon" />
+                  <p className='my-4'>Blender</p>
+              </div>
+              <div className='skills__card'>
+                  <img className='skills__img' src={WP} alt="HTML icon" />
+                  <p className='my-4'>Wordpress</p>
+              </div>
+              <div className='skills__card'>
                   <img className='skills__img' src={HTML} alt="HTML icon" />
-                  <p className='my-4'>HTML</p>
+                  <p className='my-4'>Html</p>
               </div>
               <div className='skills__card'>
                   <img className='skills__img' src={CSS} alt="HTML icon" />
-                  <p className='my-4'>CSS</p>
+                  <p className='my-4'>Css</p>
               </div>
               <div className='skills__card'>
-                  <img className='skills__img' src={JavaScript} alt="HTML icon" />
-                  <p className='my-4'>JAVASCRIPT</p>
+                  <img className='skills__img' src={JS} alt="HTML icon" />
+                  <p className='my-4'>Javascript</p>
               </div>
               <div className='skills__card'>
-                  <img className='skills__img' src={ReactImg} alt="HTML icon" />
-                  <p className='my-4'>REACT</p>
-              </div>
-              <div className='skills__card'>
-                  <img className='skills__img' src={GitHub} alt="HTML icon" />
-                  <p className='my-4'>GITHUB</p>
-              </div>
-              <div className='skills__card'>
-                  <img className='skills__img' src={Mongo} alt="HTML icon" />
-                  <p className='my-4'>MONGO DB</p>
-              </div>
-              <div className='skills__card'>
-                  <img className='skills__img' src={Tailwind} alt="HTML icon" />
-                  <p className='my-4'>TAILWIND</p>
-              </div>
-              <div className='skills__card'>
-                  <img className='skills__img' src={FireBase} alt="HTML icon" />
-                  <p className='my-4'>FIREBASE</p>
+                  <img className='skills__img' src={PY} alt="HTML icon" />
+                  <p className='my-4'>Python</p>
               </div>
           </div>
       </div>
