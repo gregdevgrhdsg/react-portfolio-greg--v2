@@ -9,12 +9,13 @@
   }
   
   .skills__grid {
+    margin-top: 60px;
     display: grid;
     justify-content: center;
-    column-gap: 6rem;
+    column-gap: 3rem;
     row-gap: 3rem;
     width: 100%;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
   
   .skills__card {
@@ -26,6 +27,7 @@
 
 .skills__img {
     height: 40px;
+    width: auto;
     margin: auto;   
     display: flex;
     align-items: center;
@@ -46,10 +48,10 @@
     .skills__grid {
         width: 100%;
         display:grid;
-        grid-template-columns: repeat(3, 1fr);     
+        grid-template-columns: repeat(4, 1fr);     
         justify-content: center;
         align-items: center;
-        column-gap: 7rem;
+        column-gap: 3rem;
         row-gap: 3rem;
     }
 }
@@ -70,7 +72,8 @@
         width: 100%;
     }
     .skills__img {
-        width: 60px;
+        height: 40px;
+        width: auto;
         margin: auto;   
         display: flex;
         align-items: center;
