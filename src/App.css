@@ -1,12 +1,12 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  
-  body {
-    background: var(--color-background-bis);
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--color-background-bis);
+}
   
   a {
     color: unset;

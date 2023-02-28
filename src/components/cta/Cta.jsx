@@ -35,8 +35,9 @@ function RandomWordButton() {
     <div className='containe_scroll_word'>
       <div className='form_button_container'>
         <div className='placeholder_scroll_fond'>
-          <div className='backgroundform_cta'>{selectedWord || 'Hello'}</div>
+          <div className='backgroundform_cta'> {selectedWord}
           <button className="bouton__Scroll_Word color-1" onClick={scrollWords}> See my assets</button>
+          </div>
         </div>
       </div>
     </div>

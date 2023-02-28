@@ -2,7 +2,6 @@ import React from 'react';
 import ai from '../../assets/logoHero.svg';
 import './header.css';
 
-
 const Header = () => (
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
@@ -13,7 +12,7 @@ const Header = () => (
       <p> Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
 
       <div className="gpt3__header-content__input">
-      <a href=".https://hammerhead-app-oxaqg.ondigitalocean.app/assets/my_CV.pdf" download class="download-button">Télécharger mon CV</a>
+      <button href=".https://hammerhead-app-oxaqg.ondigitalocean.app/assets/my_CV.pdf" download class="button color-1">Télécharger mon CV</button>
       </div>
     </div>
 

@@ -16,7 +16,7 @@
 .gpt3__header-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 40px;
+    font-size: 62px;
     line-height: 75px;
     letter-spacing: -0.04em;
 }
@@ -85,6 +85,9 @@
     .hello__header_name{
         margin: 0 auto;
     }
+    .gpt3__header-content__input {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -141,7 +144,7 @@
     color: rgb(0, 0, 0);
     padding: 1rem;
     border: solid 1px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .download-button:hover {
