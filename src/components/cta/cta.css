@@ -63,9 +63,8 @@
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;   
   }
-
     .bouton__Scroll_Word.color-1 {
-      color: #fff;
+    color: #fff;
     background-image: linear-gradient(to right, #25cb7b, #40addc, #30dd8a, #0dcfd3);
     box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
     border: none;

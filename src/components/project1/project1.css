@@ -1,0 +1,38 @@
+
+.project_container_c {
+    padding-top: 5rem;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .skills__grid__prj {
+    justify-content: center;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 6rem;
+  }
+  
+  .skills__img__prj {
+    width:auto;
+    max-width: 100%;
+  }
+
+  .back-button{
+    margin-left: 1rem;
+  }
+ 
+  
+  @media screen and (max-width: 1200px) {
+    .skills__grid__prj {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      .project_container_c {
+        margin-top: 1rem;
+      }
+
+  }   
+  

@@ -22,12 +22,12 @@ const Portfolio = () => {
 <section className="work__container__section" id="work">
     <h2 className="section__title">Recent works</h2>
     <div className="work__filters">
-      <span className="work__item"onClick={() => filterItems("All")}>All</span>
-      <span className="work__item" onClick={() => filterItems("Ui/Ux")}>Ui/Ux</span>
-      <span className="work__item"onClick={() => filterItems("Print")}>Print</span>
-      <span className="work__item"onClick={() => filterItems("Logo")}>Logo</span>
-      <span className="work__item"onClick={() => filterItems(" Branding")}>Branding</span>
-      <span className="work__item"onClick={() => filterItems("Illustration")}>Illustration</span>
+      <span className="work__item color-1"onClick={() => filterItems("All")}>All</span>
+      <span className="work__item color-1" onClick={() => filterItems("Ui/Ux")}>Ui/Ux</span>
+      <span className="work__item color-1"onClick={() => filterItems("Print")}>Print</span>
+      <span className="work__item color-1"onClick={() => filterItems("Logo")}>Logo</span>
+      <span className="work__item color-1"onClick={() => filterItems(" Branding")}>Branding</span>
+      <span className="work__item color-1"onClick={() => filterItems("Illustration")}>Illustration</span>
     </div>
     <div className="work__container grid">
     {filteredItems.map((elem) => {

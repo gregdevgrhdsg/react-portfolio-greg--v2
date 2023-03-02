@@ -1,18 +1,21 @@
 import GesproWebMokUp from '../../assets/projects/gesproWebMokUp.jpg'
+import TrackHimMockUp from '../../assets/projects/trackHimMockUp.jpg'
 import LaSagesseDesabailles from '../../assets/projects/laSagesseDesabailles.jpg';
 import LydiaJardonSite from '../../assets/projects/LydiaJardonSite.jpg';
-import XBPhotoPrint2 from '../../assets/projects/xBPhotoPrint2.jpg';
-import Work5 from '../../assets/projects/work5.png';
-import Work6 from '../../assets/projects/work6.png';
+import WemanityLp from '../../assets/projects/wemanityLp.jpg';
+import GesprojetPlq from '../../assets/projects/gesprojetPlq.jpg';
+import XbPrint from '../../assets/projects/xbPrint.jpg';
+import FConseilE from '../../assets/projects/fConseilE.jpg';
+import PlqModart from '../../assets/projects/plqModart.jpg';
 
 export const Menu=[
 {
     id:1,
-    image:GesproWebMokUp,
-    title:"Gesproweb application",
+    image:TrackHimMockUp,
+    title:"Trackhim",
     category:"Ui/Ux",
     button:"View",
-    link: '/',
+    link: '/project1',
 },
 {
     id:2,
@@ -20,6 +23,7 @@ export const Menu=[
     title:"La Sagesse Des Abeilles",
     category:"Ui/Ux",
     button:"View",
+    link: '/project2',
 },
 {
     id:3,
@@ -27,87 +31,56 @@ export const Menu=[
     title:"Lydia Jardon",
     category:"Ux/Ui",
     button:"View",
+    link: '/project3',
 },
 {
     id:4,
-    image:XBPhotoPrint2,
-    title:"Xavier Blondeau",
-    category:"Print",
+    image:GesproWebMokUp,
+    title:"Gesproweb application",
+    category:"Ui/Ux",
     button:"View",
+    link: '/project4',
 },
 {
     id:5,
-    image:"",
-    title:"hello",
-    category:"Logo",
+    image:WemanityLp,
+    title:"Wemanity",
+    category:"Ui/Ux",
+    button:"View",
+    link: '/project5',
 },
 {
     id:6,
-    image:"",
-    title:"hello",
-    category:"Branding",
+    image:GesprojetPlq,
+    title:"Gesprojet",
+    category:"Print",
+    button:"View",
+    link: '/project6',
 },
 {
     id:7,
-    image:Work5,
-    title:"hello",
-    category:"Illustration",
+    image:XbPrint,
+    title:"Xavier Blondeau",
+    category:"Print",
+    button:"View",
+    link: '/project7',
 },
 {
     id:8,
-    image:Work6,
-    title:"hello",
-    category:"Illustration",
+    image:FConseilE,
+    title:"France Conseils Ecologie",
+    category:"Print",
+    button:"View",
+    link: '/project8',
 },
 {
     id:9,
-    image:Work6,
-    title:"hello",
-    category:"Illustration",
+    image:PlqModart,
+    title:"Modart",
+    category:"Print",
+    button:"View",
+    link: '/project9',
 },
-{
-    id:10,
-    image:Work6,
-    title:"hello",
-    category:"Illustration",
-},
-{
-    id:11,
-    image:Work6,
-    title:"hello",
-    category:"Illustration",
-},
-{
-    id:12,
-    image:Work6,
-    title:"hello",
-    category:"Illustration",
-},
-{
-    id:13,
-    image:Work6,
-    title:"hello",
-    category:"Illustration",
-},
-{
-    id:14,
-    image:Work6,
-    title:"hello",
-    category:"Illustration",
-},
-{
-    id:15,
-    image:Work6,
-    title:"hello",
-    category:"Illustration",
-},
-{
-    id:16,
-    image:Work6,
-    title:"hello",
-    category:"Illustration",
-},
-
 
 ];
 
