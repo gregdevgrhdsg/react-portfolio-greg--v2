@@ -16,8 +16,8 @@
 .gpt3__header-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 42px;
-    line-height: 75px;
+    font-size: 40px;
+    line-height: 48px;
     letter-spacing: -0.04em;
 }
 
@@ -29,29 +29,12 @@
     flex-direction: row;
 }
 
-
-.gpt3__header-content__people {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
+.gpt3__header-content p {
+    font-size: 16px;
+    line-height: 24px;
     margin-top: 2rem;
-}
-
-.gpt3__header-content__people img {
-    width: 181.79px;
-    height: 38px;
-}
-
-.gpt3__header-content__people p {
-    margin: 0 0 0 1rem;
     font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 38px;
-    color: #fff;
-    text-align: center;
+    color: #000000;
 }
 
 .gpt3__header-image {
@@ -69,18 +52,25 @@
 @media screen and (max-width: 1050px) {
     .gpt3__header {
         flex-direction: column;
+        text-align: center;
         height: 100%;
     }
+    .gpt3__header-content {
+        display: flex;
+        justify-content: center;
+        align-content: center;
 
-    .download-button{
-        margin: 0 auto;
+    }
+    .gpt3__header-content h1 {
+        font-size: 42px;
+        line-height: 50px;
+        margin: 0 auto;    
     }
 
     .gpt3__header-content {
         margin: 0 0 1rem;
         margin-top: 2rem;
-        text-align: center;
-        
+        text-align: center; 
     }
     .hello__header_name{
         margin: 0 auto;
@@ -88,13 +78,18 @@
     .gpt3__header-content__input {
         justify-content: center;
     }
+    .gpt3__header-content p {
+        margin-top: 2rem;
+    }
 }
 
 @media screen and (max-width: 650px) {
-
+    .gpt3__header-content {
+        text-align: center;
+    }
     .gpt3__header-content h1 {
-        font-size: 48px;
-        line-height: 50px;
+        font-size: 42px;
+        line-height: 48px;
         text-align: center;
     }
 
