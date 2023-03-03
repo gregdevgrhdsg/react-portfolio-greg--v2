@@ -18,6 +18,7 @@ import EricMLogo from '../../assets/projects/EricMasekoLogo.jpg';
 import LsdaLogo from '../../assets/projects/lsdaLogo.jpg';
 import XbLogo from '../../assets/projects/xbLogo.jpg';
 import Fenomen404Logo from '../../assets/projects/fenomen404Logo.jpg';
+import PsvaLogo from '../../assets/projects/psvaLogo.jpg';
 
 export const Menu=[
 {
@@ -157,6 +158,12 @@ export const Menu=[
     category:"Illustration",
     button:"View",
     link: '/project13',
+},
+{
+    id:21,
+    image:PsvaLogo,
+    title:"Fenomen 404",
+    category:"Logo",
 },
 {
     id:12,
