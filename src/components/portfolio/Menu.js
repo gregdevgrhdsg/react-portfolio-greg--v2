@@ -162,7 +162,7 @@ export const Menu=[
 {
     id:21,
     image:PsvaLogo,
-    title:"Fenomen 404",
+    title:"Psva",
     category:"Logo",
 },
 {
