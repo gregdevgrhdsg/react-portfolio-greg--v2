@@ -11,3 +11,4 @@ export { default as ProjectI } from './ProjectI';
 export { default as ProjectJ } from './ProjectJ';
 export { default as ProjectK } from './ProjectK';
 export { default as ProjectL } from './ProjectL';
+export { default as ProjectM } from './ProjectM';

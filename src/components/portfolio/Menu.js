@@ -17,6 +17,7 @@ import THlogo from '../../assets/projects/trackhimLogo.jpg';
 import EricMLogo from '../../assets/projects/EricMasekoLogo.jpg';
 import LsdaLogo from '../../assets/projects/lsdaLogo.jpg';
 import XbLogo from '../../assets/projects/xbLogo.jpg';
+import Fenomen404Logo from '../../assets/projects/fenomen404Logo.jpg';
 
 export const Menu=[
 {
@@ -134,20 +135,28 @@ export const Menu=[
 {
     id:17,
     image:EricMLogo,
-    title:"Trackhim",
+    title:"Eric Maseko",
     category:"Logo",
 },
 {
     id:18,
     image:LsdaLogo,
-    title:"Trackhim",
+    title:"La Sagesse des Abeilles",
     category:"Logo",
 },
 {
     id:19,
     image:XbLogo,
-    title:"Trackhim",
+    title:"Xavier Blondeau",
     category:"Logo",
+},
+{
+    id:20,
+    image:Fenomen404Logo,
+    title:"Fenomen 404",
+    category:"Illustration",
+    button:"View",
+    link: '/project13',
 },
 {
     id:12,

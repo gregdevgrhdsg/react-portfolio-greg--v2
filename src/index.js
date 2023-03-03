@@ -20,6 +20,7 @@ import  ProjectI  from './pages/ProjectI';
 import  ProjectJ  from './pages/ProjectJ';
 import  ProjectK  from './pages/ProjectK';
 import  ProjectL  from './pages/ProjectL';
+import  ProjectM  from './pages/ProjectM';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -78,6 +79,10 @@ const router = createBrowserRouter([
     {
       path: "/project12",
       element: <ProjectL />,
+    },
+    {
+      path: "/project13",
+      element: <ProjectM />,
     },
   ]);
 

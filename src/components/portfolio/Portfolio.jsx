@@ -26,26 +26,28 @@ const Portfolio = () => {
       <span className="work__item color-1" onClick={() => filterItems("Ui/Ux")}>Ui/Ux</span>
       <span className="work__item color-1"onClick={() => filterItems("Print")}>Print</span>
       <span className="work__item color-1"onClick={() => filterItems("Logo")}>Logo</span>
-      <span className="work__item color-1"onClick={() => filterItems("Branding")}>3D</span>
       <span className="work__item color-1"onClick={() => filterItems("Illustration")}>Illustration</span>
+      <span className="work__item color-1"onClick={() => filterItems("Branding")}>3D</span>
     </div>
     <div className="work__container grid">
     {filteredItems.map((elem) => {
-        const {id, image, title, category, button, link} = elem;
-        return(
-          <div className="work__card" key={id}>
-          <div className="work__thumbail">
-            <img src={image} alt="imageProject" className="work__img" />
-            <div className="work__mask"></div>
-            <span className="work__category">{category}</span>
-            <h3 className="work__title">{title}</h3>
+    const {id, image, title, category, button, link} = elem;
+    return(
+      <div className="work__card" key={id}>
+        <div className="work__thumbail">
+          <img src={image} alt="imageProject" className="work__img" />
+          <div className="work__mask"></div>
+          <span className="work__category">{category}</span>
+          <h3 className="work__title">{title}</h3>
+          {link && (
             <Link to={link} className="work__button">
               <span className="icon_link work__button-icon">{button}</span>
             </Link>
-          </div>
+          )}
         </div>
-      )
-    })}
+      </div>
+    )
+})}
   </div>
 </section>
   )

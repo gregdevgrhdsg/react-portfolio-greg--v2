@@ -91,9 +91,7 @@
 }
 
 @media screen and (max-width: 650px) {
-    .download-button{
-        margin: 0 auto;
-    }
+
     .gpt3__header-content h1 {
         font-size: 48px;
         line-height: 50px;
@@ -139,15 +137,3 @@
     }
 }
 
-.download-button{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    padding: 1rem;
-    border: solid 1px;
-    border-radius: 30px;
-}
-
-.download-button:hover {
-    border: solid 1px;
-    color: #FF4820;
-}
