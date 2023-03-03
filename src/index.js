@@ -17,6 +17,9 @@ import  ProjectF  from './pages/ProjectF';
 import  ProjectG  from './pages/ProjectG';
 import  ProjectH  from './pages/ProjectH';
 import  ProjectI  from './pages/ProjectI';
+import  ProjectJ  from './pages/ProjectJ';
+import  ProjectK  from './pages/ProjectK';
+import  ProjectL  from './pages/ProjectL';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -63,6 +66,18 @@ const router = createBrowserRouter([
     {
       path: "/project9",
       element: <ProjectI />,
+    },
+    {
+      path: "/project10",
+      element: <ProjectJ />,
+    },
+    {
+      path: "/project11",
+      element: <ProjectK />,
+    },
+    {
+      path: "/project12",
+      element: <ProjectL />,
     },
   ]);
 

@@ -44,7 +44,7 @@ const Navbar = () => {
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
             <ul>
-                <a className='color_rs' href='/'><FaLinkedin size={25} /></a>
+                <a className='color_rs' href='https://www.linkedin.com/in/grégoire-prunet-foch-988375100/?originalSubdomain=fr'><FaLinkedin size={25} /></a>
             </ul>
           </div>
         </div>

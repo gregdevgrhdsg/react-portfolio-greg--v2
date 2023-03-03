@@ -7,6 +7,16 @@ import GesprojetPlq from '../../assets/projects/gesprojetPlq.jpg';
 import XbPrint from '../../assets/projects/xbPrint.jpg';
 import FConseilE from '../../assets/projects/fConseilE.jpg';
 import PlqModart from '../../assets/projects/plqModart.jpg';
+import EM from '../../assets/projects/ericMasekoCard.jpg';
+import PS from '../../assets/projects/prettySimpleCard.jpg';
+import MB from '../../assets/projects/marlineCov.jpg';
+import PrettyS from '../../assets/projects/prettySimpleLogo.jpg';
+import GLogo from '../../assets/projects/gesprojetLogo.jpg';
+import JetLogo from '../../assets/projects/jetFunLogo.jpg';
+import THlogo from '../../assets/projects/trackhimLogo.jpg';
+import EricMLogo from '../../assets/projects/EricMasekoLogo.jpg';
+import LsdaLogo from '../../assets/projects/lsdaLogo.jpg';
+import XbLogo from '../../assets/projects/xbLogo.jpg';
 
 export const Menu=[
 {
@@ -80,6 +90,72 @@ export const Menu=[
     category:"Print",
     button:"View",
     link: '/project9',
+},
+{
+    id:10,
+    image:EM,
+    title:"Eric Maseko",
+    category:"Print",
+    button:"View",
+    link: '/project10',
+},
+{
+    id:11,
+    image:PS,
+    title:"Pretty Simple",
+    category:"Print",
+    button:"View",
+    link: '/project11',
+},
+{
+    id:13,
+    image:PrettyS,
+    title:"Pretty Simple",
+    category:"Logo",
+},
+{
+    id:14,
+    image:GLogo,
+    title:"Gesprojet",
+    category:"Logo",
+},
+{
+    id:15,
+    image:JetLogo,
+    title:"Jetfun",
+    category:"Logo",
+},
+{
+    id:16,
+    image:THlogo,
+    title:"Trackhim",
+    category:"Logo",
+},
+{
+    id:17,
+    image:EricMLogo,
+    title:"Trackhim",
+    category:"Logo",
+},
+{
+    id:18,
+    image:LsdaLogo,
+    title:"Trackhim",
+    category:"Logo",
+},
+{
+    id:19,
+    image:XbLogo,
+    title:"Trackhim",
+    category:"Logo",
+},
+{
+    id:12,
+    image:MB,
+    title:"Marline",
+    category:"Branding",
+    button:"View",
+    link: '/project12',
 },
 
 ];

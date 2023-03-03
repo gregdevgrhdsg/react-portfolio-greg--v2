@@ -26,7 +26,7 @@ const Portfolio = () => {
       <span className="work__item color-1" onClick={() => filterItems("Ui/Ux")}>Ui/Ux</span>
       <span className="work__item color-1"onClick={() => filterItems("Print")}>Print</span>
       <span className="work__item color-1"onClick={() => filterItems("Logo")}>Logo</span>
-      <span className="work__item color-1"onClick={() => filterItems(" Branding")}>Branding</span>
+      <span className="work__item color-1"onClick={() => filterItems("Branding")}>3D</span>
       <span className="work__item color-1"onClick={() => filterItems("Illustration")}>Illustration</span>
     </div>
     <div className="work__container grid">

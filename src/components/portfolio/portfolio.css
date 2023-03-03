@@ -36,7 +36,8 @@
     color: #000000;
     
   }
-   .work__item.color-1:hover {
+    .work__item.color-1:hover,
+    .work__item.color-1:hover:not(.active) {
     color: #fff;
     background-image: linear-gradient(to right, #40addc, #25cb7b, #30dd8a, #0dcfd3);
     box-shadow: 0 2px 7px 0 rgba(49, 196, 190, 0.75);
