@@ -68,8 +68,18 @@
     box-shadow:  2px 2px 4px #949494;
     overflow: hidden;
     height: 100%;
-}
-
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateY(20px);
+  }
+  
+  .work__card.show {
+    opacity: 1;
+  }
+  .work__card--visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
 .work__thumbail{
     height: 100%;
     width: 100%;
