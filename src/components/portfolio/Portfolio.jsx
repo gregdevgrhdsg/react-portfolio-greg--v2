@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './portfolio.css';
 import Menu from './Menu';
 import { Link } from "react-router-dom";
@@ -6,21 +6,28 @@ import { Link } from "react-router-dom";
 const Portfolio = () => {
   const [items, setItems] = useState(Menu);
   const [filterCategory, setFilterCategory] = useState("All");
-  const [visibleCards, setVisibleCards] = useState([]);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const grid = ref.current;
+    const cards = grid.querySelectorAll(".work__card");
+
+    cards.forEach((card, index) => {
+      card.style.animationDelay = `${index * 50}ms`;
+      card.classList.add("fade-in");
+    });
+  }, [filterCategory]);
 
   // Fonction pour filtrer les éléments en fonction de la catégorie
   const filterItems = (category) => {
     setFilterCategory(category);
   }
 
-  useEffect(() => {
-    // Ajouter la classe visible aux cartes avec un léger délai
-    const timer = setTimeout(() => {
-      const visible = document.querySelectorAll('.work__card');
-      setVisibleCards([...visible]);
-    }, 100);
-    return () => clearTimeout(timer);
-  }, []);
+  // Utiliser la variable de filtre pour filtrer les éléments affichés
+  const filteredItems = Menu.filter((item) => {
+    if (filterCategory === "All") return true;
+    return item.category === filterCategory;
+  });
 
   return (
     <section className="work__container__section" id="work">
@@ -33,12 +40,11 @@ const Portfolio = () => {
         <span className="work__item color-1" onClick={() => filterItems("Illustration")}>Illustration</span>
         <span className="work__item color-1" onClick={() => filterItems("Branding")}>3D</span>
       </div>
-      <div className="work__container grid">
-        {items.map((elem) => {
+      <div className="work__container grid" ref={ref}>
+        {filteredItems.map((elem) => {
           const {id, image, title, category, button, link} = elem;
-          const visibleClass = visibleCards.includes(document.querySelector(`[data-id="${id}"]`)) ? 'work__card--visible' : '';
           return(
-            <div className={`work__card ${visibleClass}`} data-id={id} key={id}>
+            <div className="work__card fade-in" key={id}>
               <div className="work__thumbail">
                 <img src={image} alt="imageProject" className="work__img" />
                 <div className="work__mask"></div>
@@ -58,4 +64,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Portfolio;
