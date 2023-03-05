@@ -30,8 +30,15 @@
     width: auto;
     margin: auto;   
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
+}
+.skills__img__3{
+    height: 25px;
+    width: auto;
+    margin: auto;   
+    display: flex;
+    align-items: center; 
+
 }
 
 .my-4{

@@ -27,27 +27,27 @@ const Skills = () => {
 
           <div className='skills__grid'>
               <div className='skills__card'>
-                  <img className='skills__img' src={PS} alt="HTML icon" />
+                  <img className='skills__img__3' src={PS} alt="HTML icon" />
                   <p className='my-4'>Photoshop</p>
               </div>
               <div className='skills__card'>
-                  <img className='skills__img' src={ID} alt="HTML icon" />
+                  <img className='skills__img__3' src={ID} alt="HTML icon" />
                   <p className='my-4'>Indesign</p>
               </div>
               <div className='skills__card'>
-                  <img className='skills__img' src={AI} alt="HTML icon" />
+                  <img className='skills__img__3' src={AI} alt="HTML icon" />
                   <p className='my-4'>Illustrator</p>
               </div>
               <div className='skills__card'>
-                  <img className='skills__img' src={AE} alt="HTML icon" />
+                  <img className='skills__img__3' src={AE} alt="HTML icon" />
                   <p className='my-4'>After Effect</p>
               </div>
               <div className='skills__card'>
-                  <img className='skills__img' src={PR} alt="HTML icon" />
+                  <img className='skills__img__3' src={PR} alt="HTML icon" />
                   <p className='my-4'>Première pro</p>
               </div>
               <div className='skills__card'>
-                  <img className='skills__img' src={XD} alt="HTML icon" />
+                  <img className='skills__img__3' src={XD} alt="HTML icon" />
                   <p className='my-4'>Adobe xd</p>
               </div>
               <div className='skills__card'>
