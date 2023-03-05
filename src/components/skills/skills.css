@@ -33,7 +33,7 @@
     align-items: center; 
 }
 .skills__img__3{
-    height: 25px;
+    height: 21px;
     width: auto;
     margin: auto;   
     display: flex;
@@ -46,7 +46,6 @@
     font-size: small;
     margin-top: 3px;
     font-family: var(--font-family);
-
 }
 
 @media screen and (max-width: 1200px) {
