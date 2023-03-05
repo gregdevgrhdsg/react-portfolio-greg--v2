@@ -3,8 +3,8 @@ import './cta.css';
 
 function RandomWordButton() {
   // Définir une liste de mots
-  const words = ['Innovative', 'Imaginative','Original', 'Artistic','Visionary','Resourceful','Inventive',
-  'Intuitive','Expressive','Artful','Inspiring','Original','Ingenious','Talented','Inspired','Original','Versatile','Artistic',
+  const words = ['Innovative', 'Imaginative','Original','Visionary','Resourceful','Inventive',
+  'Intuitive','Expressive','Inspiring','Original','Ingenious','Inspired','Original','Artistic',
   'Creative','Imaginative'];
 
   // Définir un état pour stocker le mot sélectionné au hasard
