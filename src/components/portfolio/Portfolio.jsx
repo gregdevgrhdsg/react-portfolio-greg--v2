@@ -34,7 +34,7 @@ const Portfolio = () => {
       <h2 className="section__title">Recent works</h2>
       <div className="work__filters">
         <span className="work__item color-1" onClick={() => filterItems("All")}>All</span>
-        <span className="work__item color-1" onClick={() => filterItems("Ui/Ux")}>Ui/Ux</span>
+        <span className="work__item color-1" onClick={() => filterItems("Ux/Ui")}>Ux/Ui</span>
         <span className="work__item color-1" onClick={() => filterItems("Print")}>Print</span>
         <span className="work__item color-1" onClick={() => filterItems("Logo")}>Logo</span>
         <span className="work__item color-1" onClick={() => filterItems("Illustration")}>Illustration</span>
