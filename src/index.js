@@ -16,6 +16,8 @@ import ProjectJ from './pages/ProjectJ';
 import ProjectK from './pages/ProjectK';
 import ProjectL from './pages/ProjectL';
 import ProjectM from './pages/ProjectM';
+import ProjectN from './pages/ProjectN';
+import ProjectO from './pages/ProjectO';
 import './index.css';
 
 const router = createHashRouter([
@@ -34,6 +36,8 @@ const router = createHashRouter([
   { path: '/project11', element: <ProjectK /> },
   { path: '/project12', element: <ProjectL /> },
   { path: '/project13', element: <ProjectM /> },
+  { path: '/project14', element: <ProjectN /> },
+  { path: '/project15', element: <ProjectO /> },
 ]);
 
 ReactDOM.render(

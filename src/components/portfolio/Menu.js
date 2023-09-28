@@ -19,9 +19,20 @@ import LsdaLogo from '../../assets/projects/lsdaLogo.jpg';
 import XbLogo from '../../assets/projects/xbLogo.jpg';
 import Fenomen404Logo from '../../assets/projects/fenomen404Logo.jpg';
 import PsvaLogo from '../../assets/projects/psvaLogo.jpg';
+import BV from '../../assets/projects/bVMup.jpg';
+import BH from '../../assets/projects/beachHouseMup.jpg';
 
 export const Menu=[
 {
+    id:23,
+    image:BH,
+    title:"Beach House",
+    category:"Ux/Ui",
+    button:"View",
+    link: '/project15',
+},    
+{
+    
     id:1,
     image:TrackHimMockUp,
     title:"Trackhim",
@@ -172,6 +183,14 @@ export const Menu=[
     category:"Branding",
     button:"View",
     link: '/project12',
+},
+{
+    id:22,
+    image:BV,
+    title:"Bureau Vallée",
+    category:"Branding",
+    button:"View",
+    link: '/project14',
 },
 
 ];

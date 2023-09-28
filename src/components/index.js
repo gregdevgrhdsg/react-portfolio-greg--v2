@@ -15,3 +15,5 @@ export { default as Project10 } from './project10/Project10';
 export { default as Project11 } from './project11/Project11';
 export { default as Project12 } from './project12/Project12';
 export { default as Project13 } from './project13/Project13';
+export { default as Project14 } from './project14/Project14';
+export { default as Project15 } from './project15/Project15';
