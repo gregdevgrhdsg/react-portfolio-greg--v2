@@ -68,7 +68,7 @@ export const Menu=[
     id:5,
     image:WemanityLp,
     title:"Wemanity",
-    category:"Ui/Ux",
+    category:"Ux/Ui",
     button:"View",
     link: '/project5',
 },
