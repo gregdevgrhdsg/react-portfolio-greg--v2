@@ -6,6 +6,45 @@
     align-items: center;
     justify-content: center;
   }
+  .button{
+    width: 200px;
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    height: 55px;
+    align-items: center;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;   }
+  
+    .button.color-1 {
+    color: #fff;
+    background-image: linear-gradient(to right, #25cb7b, #40addc, #30dd8a, #0dcfd3);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    border: none;
+    }
+    
+   .button.color-1:hover {
+    color: #fff;
+    background-image: linear-gradient(to right, #40addc, #25cb7b, #30dd8a, #0dcfd3);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    border: none;
+  
+  }
   
   .skills__grid__prj {
     justify-content: center;
