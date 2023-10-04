@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client'; // Utilisez createRoot au lieu de ReactDOM
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import PortfolioPages from './pages/PortfolioPages';
@@ -40,9 +40,10 @@ const router = createHashRouter([
   { path: '/project15', element: <ProjectO /> },
 ]);
 
-ReactDOM.render(
+const root = createRoot(document.getElementById('root'));
+
+root.render(
   <RouterProvider router={router}>
     <App />
-  </RouterProvider>,
-  document.getElementById('root')
+  </RouterProvider>
 );

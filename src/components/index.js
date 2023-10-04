@@ -17,3 +17,4 @@ export { default as Project12 } from './project12/Project12';
 export { default as Project13 } from './project13/Project13';
 export { default as Project14 } from './project14/Project14';
 export { default as Project15 } from './project15/Project15';
+export { default as ScrollToTopOnNavigation } from './ScrollToTopOnNavigation/ScrollToTopOnNavigation';
