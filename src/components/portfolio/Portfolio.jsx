@@ -33,30 +33,28 @@ const Portfolio = () => {
     <section className="work__container__section" id="work">
       <h2 className="section__title">Recent works</h2>
       <div className="work__filters">
-        <span className="work__item color-1" onClick={() => filterItems("All")}>All</span>
-        <span className="work__item color-1" onClick={() => filterItems("Ux/Ui")}>Ux/Ui</span>
-        <span className="work__item color-1" onClick={() => filterItems("Print")}>Print</span>
-        <span className="work__item color-1" onClick={() => filterItems("Logo")}>Logo</span>
-        <span className="work__item color-1" onClick={() => filterItems("Illustration")}>Illustration</span>
-        <span className="work__item color-1" onClick={() => filterItems("Branding")}>3D</span>
+        {/* ... (votre code existant) */}
       </div>
       <div className="work__container grid" ref={ref}>
         {filteredItems.map((elem) => {
-          const {id, image, title, category, button, link} = elem;
-          return(
-            <div className="work__card fade-in" key={id}>
-              <div className="work__thumbail">
-                <img src={image} alt="imageProject" className="work__img" />
-                <div className="work__mask"></div>
-                <span className="work__category">{category}</span>
-                <h3 className="work__title">{title}</h3>
-                {link && (
-                  <Link to={link} className="work__button">
-                    <span className="icon_link work__button-icon">{button}</span>
-                  </Link>
-                )}
+          const { id, image, title, category, button, link } = elem;
+          return (
+            <Link to={link} className="work__card-link" key={id}>
+              {/* Vous enveloppez la carte dans un lien */}
+              <div className="work__card fade-in">
+                <div className="work__thumbail">
+                  <img src={image} alt="imageProject" className="work__img" />
+                  <div className="work__mask"></div>
+                  <span className="work__category">{category}</span>
+                  <h3 className="work__title">{title}</h3>
+                  {link && (
+                    <Link to={link} className="work__button">
+                      <span className="icon_link work__button-icon">{button}</span>
+                    </Link>
+                  )}
+                </div>
               </div>
-            </div>
+            </Link>
           )
         })}
       </div>
