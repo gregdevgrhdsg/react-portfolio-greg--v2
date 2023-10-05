@@ -23,16 +23,7 @@ import BV from '../../assets/projects/bVMup.jpg';
 import BH from '../../assets/projects/beachHouseMup.jpg';
 
 export const Menu=[
-    {
-        id:24,
-        image:BH,
-        title:"Beach House",
-        category:"Ux/Ui",
-        button:"View",
-        link: '/project15',
-    },    
-
-    {
+{
     id:23,
     image:BH,
     title:"Beach House",
